@@ -1,14 +1,3 @@
-/*
-  Capitulo 40 de Arduino desde cero en Español.
-  Programa que obtiene el UID de la tarjeta o llavero del kit RFID RC522, compara con
-  valores previos obtenidos de UID y permite acceso con texto en monitor serie de bienvenida
-  Cualquier otra tarjeta o llavero no listado muestra texto de No te conozco, es decir,
-  acceso denegado. Requiere instalar libreria MFRC522
-
-  Autor: bitwiseAr  
-
-*/
-
 #include <SPI.h>      // incluye libreria bus SPI
 #include <MFRC522.h>      // incluye libreria especifica para MFRC522
 
